@@ -100,7 +100,6 @@
 		2B162B431BD5A1540001E17B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		2B162B451BD5A1590001E17B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		2B162B471BD5A15E0001E17B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		2B162CE81BD5C2810001E17B /* boost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = boost.a; path = ../libs/ofxiOSBoost/libs/boost/ios/boost.a; sourceTree = "<group>"; };
 		2B162DCA1BD6DC250001E17B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		2B1B4F181CBEE66D00859F5A /* LAZQuadReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAZQuadReader.h; sourceTree = "<group>"; };
 		2B1B4F191CBEE66D00859F5A /* LAZQuadReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LAZQuadReader.mm; sourceTree = "<group>"; };
@@ -111,7 +110,6 @@
 		2B1B4F211CBEEC0B00859F5A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "../../libs/WhirlyGlobe-Maply/third-party/fmdb/src/fmdb/FMDB.h"; sourceTree = "<group>"; };
 		2B1B4F221CBEEC0B00859F5A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../libs/WhirlyGlobe-Maply/third-party/fmdb/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
 		2B8FBD5F1CC0545000882AC9 /* colorramp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorramp.png; sourceTree = SOURCE_ROOT; };
-		2BA6DB131CB710BD0017E3AF /* libgdal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgdal.a; path = ../../../../../usr/local/Cellar/gdal/1.11.2_1/lib/libgdal.a; sourceTree = "<group>"; };
 		2BB6A8931BD992DC00FDB60A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = "../../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"; sourceTree = "<group>"; };
 		2BB6A8941BD992DC00FDB60A /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = "../../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"; sourceTree = "<group>"; };
 		2BB6A8951BD992DC00FDB60A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = "../../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPSessionManager.h"; sourceTree = "<group>"; };
@@ -226,8 +224,6 @@
 			children = (
 				2BE53B031D2596C400B60FAD /* WhirlyGlobeMaplyComponent.xcodeproj */,
 				2B162DCA1BD6DC250001E17B /* libiconv.tbd */,
-				2BA6DB131CB710BD0017E3AF /* libgdal.a */,
-				2B162CE81BD5C2810001E17B /* boost.a */,
 				2B162B471BD5A15E0001E17B /* libsqlite3.tbd */,
 				2B162B451BD5A1590001E17B /* libxml2.tbd */,
 				2B162B431BD5A1540001E17B /* libz.tbd */,
