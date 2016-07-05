@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B162B021BD59E3C0001E17B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B162B011BD59E3C0001E17B /* main.m */; };
 		2B162B051BD59E3C0001E17B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B162B041BD59E3C0001E17B /* AppDelegate.m */; };
-		2B162B081BD59E3C0001E17B /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B162B071BD59E3C0001E17B /* ViewController.mm */; };
+		2B162B081BD59E3C0001E17B /* LidarViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B162B071BD59E3C0001E17B /* LidarViewController.mm */; };
 		2B162B0B1BD59E3C0001E17B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B162B091BD59E3C0001E17B /* Main.storyboard */; };
 		2B162B0D1BD59E3C0001E17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B162B0C1BD59E3C0001E17B /* Assets.xcassets */; };
 		2B162B101BD59E3C0001E17B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B162B0E1BD59E3C0001E17B /* LaunchScreen.storyboard */; };
@@ -82,8 +82,8 @@
 		2B162B011BD59E3C0001E17B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B162B031BD59E3C0001E17B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B162B041BD59E3C0001E17B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B162B061BD59E3C0001E17B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B162B071BD59E3C0001E17B /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		2B162B061BD59E3C0001E17B /* LidarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LidarViewController.h; sourceTree = "<group>"; };
+		2B162B071BD59E3C0001E17B /* LidarViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LidarViewController.mm; sourceTree = "<group>"; };
 		2B162B0A1BD59E3C0001E17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B162B0C1BD59E3C0001E17B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B162B0F1BD59E3C0001E17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,7 +110,8 @@
 		2B1B4F201CBEEC0B00859F5A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../libs/WhirlyGlobe-Maply/third-party/fmdb/src/fmdb/FMDatabaseQueue.h"; sourceTree = "<group>"; };
 		2B1B4F211CBEEC0B00859F5A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "../../libs/WhirlyGlobe-Maply/third-party/fmdb/src/fmdb/FMDB.h"; sourceTree = "<group>"; };
 		2B1B4F221CBEEC0B00859F5A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../libs/WhirlyGlobe-Maply/third-party/fmdb/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
-		2BA6DB131CB710BD0017E3AF /* libgdal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgdal.a; path = ../../../../../usr/local/Cellar/gdal/1.11.1_3/lib/libgdal.a; sourceTree = "<group>"; };
+		2B8FBD5F1CC0545000882AC9 /* colorramp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorramp.png; sourceTree = SOURCE_ROOT; };
+		2BA6DB131CB710BD0017E3AF /* libgdal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgdal.a; path = ../../../../../usr/local/Cellar/gdal/1.11.2_1/lib/libgdal.a; sourceTree = "<group>"; };
 		2BB6A8931BD992DC00FDB60A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = "../../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"; sourceTree = "<group>"; };
 		2BB6A8941BD992DC00FDB60A /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = "../../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"; sourceTree = "<group>"; };
 		2BB6A8951BD992DC00FDB60A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = "../../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPSessionManager.h"; sourceTree = "<group>"; };
@@ -266,8 +267,8 @@
 				2B1B4F191CBEE66D00859F5A /* LAZQuadReader.mm */,
 				2BC2DCF31D2435250088D350 /* MeshBuilder.h */,
 				2BC2DCF21D2435250088D350 /* MeshBuilder.mm */,
-				2B162B061BD59E3C0001E17B /* ViewController.h */,
-				2B162B071BD59E3C0001E17B /* ViewController.mm */,
+				2B162B061BD59E3C0001E17B /* LidarViewController.h */,
+				2B162B071BD59E3C0001E17B /* LidarViewController.mm */,
 				2B162B091BD59E3C0001E17B /* Main.storyboard */,
 				2B162B0C1BD59E3C0001E17B /* Assets.xcassets */,
 				2B162B0E1BD59E3C0001E17B /* LaunchScreen.storyboard */,
@@ -604,7 +605,7 @@
 			files = (
 				2BFC7DE31D11F72F0040E2A3 /* arithmeticencoder.cpp in Sources */,
 				2BC2DCF41D2435250088D350 /* MeshBuilder.mm in Sources */,
-				2B162B081BD59E3C0001E17B /* ViewController.mm in Sources */,
+				2B162B081BD59E3C0001E17B /* LidarViewController.mm in Sources */,
 				2BFC7DE41D11F72F0040E2A3 /* arithmeticmodel.cpp in Sources */,
 				2BFC7DEE1D11F72F0040E2A3 /* laswriteitemcompressed_v1.cpp in Sources */,
 				2BFC7DF11D11F72F0040E2A3 /* laszip.cpp in Sources */,
