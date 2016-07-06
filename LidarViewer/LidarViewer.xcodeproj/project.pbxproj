@@ -52,7 +52,7 @@
 		7DDE8F511D2C14EE00A18809 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B162B411BD5A14F0001E17B /* libstdc++.tbd */; };
 		7DDE8F521D2C14FF00A18809 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B162B3F1BD5A1490001E17B /* libc++.tbd */; };
 		7DDE8F531D2C150A00A18809 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B162B3D1BD5A13F0001E17B /* CoreLocation.framework */; };
-		7DDE8F541D2C151800A18809 /* libWhirlyGlobe-MaplyComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B162B391BD59E5D0001E17B /* libWhirlyGlobe-MaplyComponent.a */; };
+		7DDE8F541D2C151800A18809 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		7DDE8F561D2C157600A18809 /* LAZShader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BB6BC081BE01F0300FDB60A /* LAZShader.mm */; };
 		7DDE8F5A1D2C157600A18809 /* LAZQuadReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B4F191CBEE66D00859F5A /* LAZQuadReader.mm */; };
 		7DDE8F5C1D2C157600A18809 /* LidarViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B162B071BD59E3C0001E17B /* LidarViewController.mm */; };
@@ -139,7 +139,6 @@
 		2B1B4F201CBEEC0B00859F5A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../libs/WhirlyGlobe-Maply/third-party/fmdb/src/fmdb/FMDatabaseQueue.h"; sourceTree = "<group>"; };
 		2B1B4F211CBEEC0B00859F5A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "../../libs/WhirlyGlobe-Maply/third-party/fmdb/src/fmdb/FMDB.h"; sourceTree = "<group>"; };
 		2B1B4F221CBEEC0B00859F5A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../libs/WhirlyGlobe-Maply/third-party/fmdb/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
-		2B8FBD5F1CC0545000882AC9 /* colorramp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorramp.png; sourceTree = SOURCE_ROOT; };
 		2BB6A8931BD992DC00FDB60A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = "../../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"; sourceTree = "<group>"; };
 		2BB6A8941BD992DC00FDB60A /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = "../../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"; sourceTree = "<group>"; };
 		2BB6A8951BD992DC00FDB60A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = "../../libs/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/AFHTTPSessionManager.h"; sourceTree = "<group>"; };
@@ -253,7 +252,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DDE8F541D2C151800A18809 /* libWhirlyGlobe-MaplyComponent.a in Frameworks */,
+				7DDE8F541D2C151800A18809 /* (null) in Frameworks */,
 				7DDE8F531D2C150A00A18809 /* CoreLocation.framework in Frameworks */,
 				7DDE8F521D2C14FF00A18809 /* libc++.tbd in Frameworks */,
 				7DDE8F511D2C14EE00A18809 /* libstdc++.tbd in Frameworks */,
@@ -283,7 +282,6 @@
 				2B162B191BD59E3D0001E17B /* LidarViewerTests */,
 				2B162B241BD59E3D0001E17B /* LidarViewerUITests */,
 				7DDE8F1A1D2C13C300A18809 /* LidarViewerLib */,
-				7DDE8F751D2C34AC00A18809 /* LidarViewerStatic */,
 				2B162AFE1BD59E3C0001E17B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -503,13 +501,6 @@
 				7DDE8F1D1D2C13C300A18809 /* Info.plist */,
 			);
 			path = LidarViewerLib;
-			sourceTree = "<group>";
-		};
-		7DDE8F751D2C34AC00A18809 /* LidarViewerStatic */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LidarViewerStatic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1081,6 +1072,7 @@
 				7DDE8F201D2C13C300A18809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
