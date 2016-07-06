@@ -44,6 +44,8 @@
 		2BFC7DF21D11F72F0040E2A3 /* laszip_dll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC7DDD1D11F72F0040E2A3 /* laszip_dll.cpp */; };
 		2BFC7DF31D11F72F0040E2A3 /* laszipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC7DDE1D11F72F0040E2A3 /* laszipper.cpp */; };
 		2BFC7DFA1D11F8CF0040E2A3 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 2BFC7DF91D11F8CF0040E2A3 /* Makefile.am */; };
+		7D9A32F21D2D77460060AFB9 /* WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE53B0A1D2596C400B60FAD /* WhirlyGlobeMaplyComponent.framework */; };
+		7D9A32F31D2D7A210060AFB9 /* MeshBuilder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BC2DCF21D2435250088D350 /* MeshBuilder.mm */; };
 		7DDE8F1C1D2C13C300A18809 /* LidarViewerLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDE8F1B1D2C13C300A18809 /* LidarViewerLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DDE8F4D1D2C14AF00A18809 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B162DCA1BD6DC250001E17B /* libiconv.tbd */; };
 		7DDE8F4E1D2C14BA00A18809 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B162B471BD5A15E0001E17B /* libsqlite3.tbd */; };
@@ -52,7 +54,6 @@
 		7DDE8F511D2C14EE00A18809 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B162B411BD5A14F0001E17B /* libstdc++.tbd */; };
 		7DDE8F521D2C14FF00A18809 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B162B3F1BD5A1490001E17B /* libc++.tbd */; };
 		7DDE8F531D2C150A00A18809 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B162B3D1BD5A13F0001E17B /* CoreLocation.framework */; };
-		7DDE8F541D2C151800A18809 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		7DDE8F561D2C157600A18809 /* LAZShader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BB6BC081BE01F0300FDB60A /* LAZShader.mm */; };
 		7DDE8F5A1D2C157600A18809 /* LAZQuadReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B4F191CBEE66D00859F5A /* LAZQuadReader.mm */; };
 		7DDE8F5C1D2C157600A18809 /* LidarViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B162B071BD59E3C0001E17B /* LidarViewController.mm */; };
@@ -252,7 +253,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DDE8F541D2C151800A18809 /* (null) in Frameworks */,
+				7D9A32F21D2D77460060AFB9 /* WhirlyGlobeMaplyComponent.framework in Frameworks */,
 				7DDE8F531D2C150A00A18809 /* CoreLocation.framework in Frameworks */,
 				7DDE8F521D2C14FF00A18809 /* libc++.tbd in Frameworks */,
 				7DDE8F511D2C14EE00A18809 /* libstdc++.tbd in Frameworks */,
@@ -744,6 +745,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9A32F31D2D7A210060AFB9 /* MeshBuilder.mm in Sources */,
 				7DDE8F651D2C175600A18809 /* arithmeticdecoder.cpp in Sources */,
 				7DDE8F661D2C175600A18809 /* integercompressor.cpp in Sources */,
 				7DDE8F671D2C175600A18809 /* lasindex.cpp in Sources */,
@@ -991,7 +993,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = "../libs/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/";
+				HEADER_SEARCH_PATHS = (
+					"../libs/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/",
+					"../libs/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobeLib/include/",
+					"../libs/WhirlyGlobe-Maply/third-party/eigen/",
+					"../libs/WhirlyGlobe-Maply/third-party/boost/",
+					"../libs/WhirlyGlobe-Maply/third-party/SMCalloutView/",
+				);
 				INFOPLIST_FILE = LidarViewerLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -1013,7 +1021,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = "../libs/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/";
+				HEADER_SEARCH_PATHS = (
+					"../libs/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/",
+					"../libs/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobeLib/include/",
+					"../libs/WhirlyGlobe-Maply/third-party/eigen/",
+					"../libs/WhirlyGlobe-Maply/third-party/boost/",
+					"../libs/WhirlyGlobe-Maply/third-party/SMCalloutView/",
+				);
 				INFOPLIST_FILE = LidarViewerLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
