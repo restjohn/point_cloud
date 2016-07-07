@@ -1,6 +1,7 @@
 [submodule "libs/WhirlyGlobe-Maply"]
 	path = libs/WhirlyGlobe-Maply
 	url = https://github.com/mousebird/WhirlyGlobe
+	branch = develop_2_4_1
 [submodule "libs/LASzip"]
 	path = libs/LASzip
-url=https://github.com/mousebird/LASzip
+	url = https://github.com/mousebird/LASzip
