@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char LidarViewerLibVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LidarViewerLib/PublicHeader.h>
 
-
+#import <LidarViewerLib/LAZQuadReader.h>
+#import <LidarViewerLib/LAZShader.h>
+#import <LidarViewerLib/MeshBuilder.h>
